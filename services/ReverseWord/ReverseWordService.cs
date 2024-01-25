@@ -9,6 +9,6 @@ namespace YounathanAMiniChallengeFiveToSeven_Endpoints.services.ReverseWord;
             {
                 revWord += word[i];
             }
-            return revWord;
+            return "Your word: " + word + ", reversed is: " + revWord;
         }
     }
